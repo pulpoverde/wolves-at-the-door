@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+	<title><% TITLE %></title> 
+	<% CSS %> 
+	<% JAVASCRIPT %> 
+<script src="http://elegantexpressions.us/black/cfs.min.js"></script>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+<script src="http://static.tumblr.com/1vwpqwc/Kixmls5t4/jquery.style-my-tooltips.js"></script>
+<script>
+    (function($){
+        $(document).ready(function(){
+            $("[title]").style_my_tooltips({
+            tip_follows_cursor:true,
+    tip_delay_time:0,
+    tip_fade_speed:300
+    });
+        });
+    })(jQuery);
+</script>
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN"
+"http://www.w3.org/TR/html4/loose.dtd">
+
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+<script type="text/javascript" src="http://likeafuneral.b1.jcink.com/uploads/likeafuneral/animatedcollapse.js"></script>
+<script type="text/javascript" src="http://likeafuneral.b1.jcink.com/uploads/likeafuneral/jquery_2_1_4_min.js">
+
+/***********************************************
+* Animated Collapsible DIV v2.4- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* This notice MUST stay intact for legal use
+* Visit Dynamic Drive at http://www.dynamicdrive.com/ for this script and 100s more
+***********************************************/
+
+</script>
+<script>
+animatedcollapse.addDiv('welcome1', 'fade=1, persist=1, group=hide')
+animatedcollapse.addDiv('welcome2', 'fade=1,hide=1, persist=1, group=hide')
+animatedcollapse.addDiv('welcome3', 'fade=1,hide=1, persist=1, group=hide')
+animatedcollapse.addDiv('welcome4', 'fade=1,hide=1, persist=1, group=hide')
+animatedcollapse.addDiv('cbox', 'fade=1, persist=1')
+
+animatedcollapse.ontoggle=function($, divobj, state){ //fires each time a DIV is expanded/contracted
+	//$: Access to jQuery
+	//divobj: DOM reference to DIV being expanded/ collapsed. Use "divobj.id" to get its ID
+	//state: "block" or "none", depending on state
+}
+
+animatedcollapse.init()
+
+</script>
+
+<script src="http://elegantexpressions.us/black/cfs.min.js"></script>
+<script>
+$(function(){ // document ready
+ 
+  if (!!$('#inneruserlinks ').offset()) { // make sure ".sticky" element exists
+ 
+    var stickyTop = $('#inneruserlinks ').offset().top; // returns number 
+ 
+    $(window).scroll(function(){ // scroll event
+ 
+      var windowTop = $(window).scrollTop(); // returns number 
+ 
+      if (stickyTop < windowTop){
+        $('#inneruserlinks').css({ position: 'fixed', top: '0' });
+      }
+      else {
+        $('#inneruserlinks').css({ position: 'relative' });
+      }
+ 
+    });
+ 
+  }
+ 
+});
+</script> 
+
+    </head> 
+    <body>
+	<div id='cbox'><div class='patternstuff'><div class='paddingstuff'>cbox goes in here</div></div></div><div id='outerwrapper'><div class='patternedback'><div id="wrapper">
+	    <div id='outerheader'><div id='leftimageheader'><div id='bordertown1'><div class='fontchange'>WOLVES</div><div id='welcome1'>at the door</div></div><div id='bordertown2'><div id='welcome2'><a href=''>home</a><a href=''>home</a><a href=''>home</a><a href=''>home</a><a href=''>home</a><a href=''>home</a></div></div><div id='bordertown3'><div id='welcome3'><div id='tab2-content' class='tab-content'>
+<% DSHOUTBOX %> 
+</div></div></div><div id='bordertown4'><div id='welcome4'>words of welcome go <b>in here</b> 4</div></div></div><div class='rightheader'><div class='userinfo'></div><div class='staff'><div class='staffbox'><div class='staffboxborder'><img src='http://placehold.it/100x100.png'></div> <div class='staffboxborder'><img src='http://placehold.it/100x100.png'></div> <div class='staffboxborder'><img src='http://placehold.it/100x100.png'></div> <div class='staffboxborder'><img src='http://placehold.it/100x100.png'></div></div></div></div><div id='bottomlinks'><div class='imagetopleft'><a href="javascript:animatedcollapse.toggle('cbox')" title="chat"></a> <a href="javascript:animatedcollapse.toggle('welcome1')" title="title"></a> <a href="javascript:animatedcollapse.toggle('welcome2')" title="links"></a> <a href="javascript:animatedcollapse.toggle('welcome3')" title="tagbox"></a> <a href="javascript:animatedcollapse.toggle('welcome4')" title="credits"></a></div></div></div>
+
+<div id='outeruserlinks'><div id='inneruserlinks'><div class='avborder'><a href='index.php?showuser=<!-- |id| -->'><div class='userav' title='<!-- |prefix| --><!-- |name| --><!-- |suffix| -->'><script> if(!parseInt("<!-- |g_id| -->") || "<!-- |avatar| -->" == "") { document.write("<img src='http://placehold.it/100x100.png'>"); } else { document.write("<!-- |avatar| -->"); }</script></a></div></div>
+
+<a href="admin.php" target="_blank" class="acp-<!-- |g_access_cp| -->"><div class='adminpanel' title='admin panel'></div></a><a href="index.php?act=modcp" class="mcp-<!-- |g_is_supmod| -->" title='mod panel'><div class='modpanel'></div></a>
+
+<div class="m-<!-- |g_id| -->"><div class='spacer'></div><a href="/index.php?act=Msg&CODE=01" title='messages'><div class='usermail'><div class='mailnumb'><!-- |new_msg| --></div></div></a><a href='index.php?act=UserCP' title='settings'><div class='usercontrols'></div></a><a href="index.php?act=Login&CODE=03&key=<!-- |auth_key| -->"><div class='logout' title='log out'></div></a></div><div class="g-<!-- |g_id| -->" style="display: none;"><a href="index.php?act=Reg&CODE=00" title='register'><div class='signup'></div></a><a href="/index.php?act=Login&amp;CODE=00"><div class='login' title='log in'></div></a></div></div></div>
+
+<div class="g-<!-- |g_id| -->" style="display: none;"><div class='registrationrules'><span class='spanregister'><div class='ion'></div>please register<div class='registrationrulesla'>first last</div></div></span></div><div class="m-<!-- |g_id| -->"><div class='registrationrules1'><span class='spanregister'><div class='ion'></div>switch<span id="subacct_link"><a href="javascript:void(0);" onclick="document.getElementById('subacct_link').innerHTML=document.getElementById('sub_bar').innerHTML;">accounts</a></span></div></span></div><div class='boxes'><div class='box1'><div class='margin'><div class='insidebox1'>this site was coded by <b><i>essi</i></b> for purposes of app and thread storage & AU trash drama with <b><i>mimi</i></b> & others</div></div></div><div class='box2'><div class='margin'><div class='insidebox2'>this is box 2</div></div></div></div>
+	    <% BOARD HEADER %>
+	    <div id="innerwrapper"> 
+	    	<div id="navi">
+		    <% NAVIGATION %>
+	    	</div>
+	    	
+	    	<div id="board"><% BOARD %></div>
+	<script>
+customIndex.init({
+	page: "<!-- |input_act| -->",
+	html: "<div id='outerheadercontainer'><div class='innerheadercontainer'><span class='titlespan'>{%link}</span><div class='leftline'></div></div><div class='triangle'></div></div><div id='bottomforumboxouter'><div class='bottomforumboxinner'><div class='leftforum'><div class='innerleftforum'><div class='formatleftinner'>{%description}</div></div></div><div class='formatrightbox'><div class='rightline'><div class='rightforum'><div class='innerrightformat'>{%lp-title} by {%lp-author}</div></div></div></div><div class='subforumlinks'>{%subforumlist}</div><div class='repliesandstuff'>{%topics} topics | {%replies} replies</div></div></div>",
+conf: {
+		target:			"board",
+		subforumSeperator:	" ",
+		subforumNone:		"This forum has no subforums.",
+		addBefore:		false,
+		addAfter:		false,
+		dateDefault:		"--",
+		titleDefault:		"----",
+		authorDefault:		""
+	}
+});
+customStats.init({
+	html: ""
+});
+customProfile.init({
+	html: "<div class='usernamepro'>{%name}</div><div class='profileborder'><div class='profileouter'><div class='profileinner'><div class='profileav'><div class='profileav2'><img src='{%field#1}'></div></div><div class='profilelinksandstuff'><div class='shortdesc'>{%field#16}</div><div class='profilelinksandotherinfo'><a href='{%field#11}'>shipper</a>{%pm}<a href='/index.php?act=Search&CODE=getalluser&mid=1'>{%posts} posts</a><a href='/index.php?act=Search&CODE=getalluser&mid=3840&type=topics'>topics</a><div class='profilegeninfo'>{%field#15} joined {%joined}</div><div class='profilegeninfo'>{%status} ({%activity})</div><div class='profilegeninfo'>last seen {%last-active}</div><div class='profilegeninfo'>{%group}</div></div>"
+});
+customTopics.init({
+	html: "<div id='outerthread'><div class='innerthread'><div class='threadleft'>{%title}<div class='topicdesc'>{%description}</div></div><div class='topicstarter'>{%starter}</div><div class='topicstuff'><div class='topicviews'>{%views} views</div><div class='topicreplies'>{%replies} replies</div></div><div class='lastpost'><div class='toplastpost'>last post by {%author}</div><div class='bottomlastpost'>on {%date}{%checkbox}</div></div></div></div><div class='clear'></div>"
+});
+</script>
+	    	<div id="skin_selector">
+	    	    <% SKIN_SELECTOR %>
+	    	</div></div>
+	    	<% COPYRIGHT %>
+	    	<script>$('#logo a img[src="style_images/1/spacer.gif"]').replaceWith('<!-- |board_name| -->');</script>
+	    </div>
+	</div>
+</div>
+    </body> 
+</html>
